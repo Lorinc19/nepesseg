@@ -52,6 +52,19 @@ namespace nepesseg
             int tobb = k - ind;
             Console.WriteLine($"Kínában a lakosság {tobb} fővel volt több");
 
+            //7. feladat
+            Console.WriteLine("7. feladat");
+            int hnagy = 0;
+            string hnagyo = "";
+            foreach(var item in orszaglista)
+            {
+                if (item.orszag!="Kína"||item.orszag!="India"&& hnagy<item.nepessegg)
+                {
+                    hnagy += item.nepessegg;
+                    hnagyo = item.orszag;
+                }
+            }
+            Console.WriteLine($"A harmadik legnagyobb ország: {hnagyo}, a lakossága: {hnagy} db fő");
             Console.ReadLine();
         }
         
