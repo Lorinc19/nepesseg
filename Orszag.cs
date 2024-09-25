@@ -33,6 +33,23 @@ namespace nepesseg
             int ossz = nep / ter;
             return(ossz);
         }
+
+        public bool Varosok(int fmepesseg, int nepessegg)
+        {
+            bool van = false;
+            double szam = fmepesseg / (double)nepessegg;
+            double szam2 = szam * 100;
+            if (szam2 >= 30)
+            {
+                van = true;
+            }
+            else
+            {
+                van = false;
+            }
+
+            return(van);
+        }
     }
 
 }

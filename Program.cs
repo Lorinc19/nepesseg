@@ -65,6 +65,19 @@ namespace nepesseg
                 }
             }
             Console.WriteLine($"A harmadik legnagyobb ország: {hnagyo}, a lakossága: {hnagy} db fő");
+            //8-1 feladat
+            Console.WriteLine("8-1 feladat");
+            
+            foreach(var item in orszaglista)
+            {
+                
+                bool x = item.Varosok(item.fmepesseg, item.nepessegg);
+                if (x == true)
+                {
+                    Console.WriteLine("\t" +item.orszag+" "+"("+item.fovaros+")");
+                }
+            }
+            
             Console.ReadLine();
         }
         
