@@ -1,0 +1,7 @@
+L:\GitWorkf\népesség\nepesseg\bin\Debug\nepesseg.exe.config
+L:\GitWorkf\népesség\nepesseg\bin\Debug\nepesseg.exe
+L:\GitWorkf\népesség\nepesseg\bin\Debug\nepesseg.pdb
+L:\GitWorkf\népesség\nepesseg\obj\Debug\nepesseg.csproj.AssemblyReference.cache
+L:\GitWorkf\népesség\nepesseg\obj\Debug\nepesseg.csproj.CoreCompileInputs.cache
+L:\GitWorkf\népesség\nepesseg\obj\Debug\nepesseg.exe
+L:\GitWorkf\népesség\nepesseg\obj\Debug\nepesseg.pdb

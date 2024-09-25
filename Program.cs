@@ -19,6 +19,9 @@ namespace nepesseg
                 orszaglista.Add(new Orszag(sr.ReadLine()));
             }
             sr.Close();
+            //4 feladat
+            Console.WriteLine("4.feladat");
+            Console.WriteLine($"{orszaglista.Count()} db ország van felsorolva");
         }
     }
 }
