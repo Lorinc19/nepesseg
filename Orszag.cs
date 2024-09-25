@@ -25,5 +25,14 @@ namespace nepesseg
             this.fovaros = darab[3];
             this.fmepesseg = Convert.ToInt32(darab[4]);
         }
+
+        public int Nepsurusseg(int terulet , int nepessegg)
+        {
+            int ter = terulet;
+            int nep = nepessegg;
+            int ossz = nep / ter;
+            return(ossz);
+        }
     }
+
 }

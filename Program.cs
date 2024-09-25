@@ -22,6 +22,18 @@ namespace nepesseg
             //4 feladat
             Console.WriteLine("4.feladat");
             Console.WriteLine($"{orszaglista.Count()} db ország van felsorolva");
+
+            //5 feladat
+            Console.WriteLine("5.feladat");
+            foreach (var item in orszaglista)
+            {
+                if (item.orszag =="Kína")
+                {
+                    Console.WriteLine($"Kína népessége: {item.Nepsurusseg(item.terulet,item.nepessegg)} fő/km2");
+                }
+            }
+            Console.ReadLine();
         }
+        
     }
 }
